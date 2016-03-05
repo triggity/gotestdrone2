@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := []string{"foo", "bar", "thanks", "you"}
+	input := []string{"foo", "bar", "thanks", "you", "fuck"}
 	fmt.Printf("Hello World")
 	fmt.Printf(strings.Join(input, ", "))
 
