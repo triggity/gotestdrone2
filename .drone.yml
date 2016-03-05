@@ -9,3 +9,6 @@ build:
     - go get
     - go build
     - go test
+  script:
+    - go get
+    - go test
