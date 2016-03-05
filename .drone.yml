@@ -3,6 +3,8 @@ clone:
 
 build:
   image: golang
+  environment:
+    - GO15VENDOREXPERIMENT=1
   commands:
     - go get
     - go build
