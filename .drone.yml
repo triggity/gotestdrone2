@@ -1,3 +1,6 @@
+clone:
+  path: github.com/triggity/gotestdrone2
+
 build:
   image: golang
   commands:
