@@ -7,7 +7,7 @@ build:
     - GO15VENDOREXPERIMENT=1
   commands:
     - go get
-    - echo "foo"
+    - echo "michael foo"
     - go build
     - go test
   script:
